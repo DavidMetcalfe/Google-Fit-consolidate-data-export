@@ -2,7 +2,8 @@
 This script combines Google Fit data from a Google Takeout export into a single CSV for further analysis or other uses. The main intent was using the [Health CSV Importer](https://apps.apple.com/app/health-csv-importer/id1275959806) app for iOS, which will import CSV data into Apple Health, allowing someone to export Google Fit data into Apple Health.
 
 # Acknowledgements
-Thanks to Ben on Stack Exchange for the initial script.
+Thanks to [Ben](https://apple.stackexchange.com/users/297377/ben) on Stack Exchange for the initial script.
+
 Source URL: https://apple.stackexchange.com/a/428313/2319
 
 # Structure
