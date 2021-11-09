@@ -30,3 +30,26 @@ The following Google Fit CSV columns are provided by Google Takeout as of Septem
 * Average weight (kg)
 * Max weight (kg)
 * Min weight (kg)
+
+# Formats supported by Health CSV Importer
+As of my conversations with Lionheart Software on November 8, 2021, below are the currently supported date and time formats which can then be used in combination with each other e.g. yyyy-MM-dd HH:mm:ss.SSSZ
+
+I have made recommendations to the developers to include timezone separators like +/- to more closely align with the ISO 8601 standard as this would alleviate some import issues with the format Google currently uses.
+
+## Date formats:
+* MM-dd-yyyy (e.g. 04-16-2020)
+* dd-MM-yyyy (e.g. 16-04-2020)
+* yyyy-MM-dd (e.g. 2020-04-16)
+* yyyy-dd-MM (e.g. 2020-16-04)
+* yyyyMMddHHmmssZ
+* MMMM d, yyyy (e.g. April 16, 2020)
+
+## Time formats:
+* HH:mm
+* hh:mm a
+* HH:mm:ss
+* hh:mm:ss a
+* HH:mm:ss Z
+* hh:mm:ss a Z
+* HH:mm:ssZ
+* HH:mm:ss.SSSZ
