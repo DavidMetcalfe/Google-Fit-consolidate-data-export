@@ -40,7 +40,7 @@ def clean_input_file_list(path):
     print("Cleaning Input File list.")
     counter = 0
     activity_metrics_files = sorted(os.listdir(path))
-    start_file_count =  len(activity_metrics_files)
+    start_file_count = len(activity_metrics_files)
 
     # Try to remove "daily activity metrics.csv" from activity_metrics_files
     # list so it's not erroneously processed with the other files.
