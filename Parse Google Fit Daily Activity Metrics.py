@@ -41,7 +41,14 @@ def clean_input_file_list(path):
     counter = 0
     activity_metrics_files = sorted(os.listdir(path))
     start_file_count =  len(activity_metrics_files)
-    activity_metrics_files.remove("Daily activity metrics.csv")
+
+    # Try to remove "daily activity metrics.csv" from activity_metrics_files
+    # list so it's not erroneously processed with the other files.
+    try: 
+        activity_metrics_files.remove("Daily activity metrics.csv")
+    except:
+        pass
+    
     for f in activity_metrics_files:
         if f.startswith('.'):
             activity_metrics_files.pop(counter)
