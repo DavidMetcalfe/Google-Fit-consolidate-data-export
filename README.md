@@ -1,5 +1,5 @@
 # Google Fit consolidate data export
-This script combines Google Fit data from the "Daily activity metrics" folder of a Google Takeout export into a single CSV for further analysis or other uses. The main intent was using the [Health CSV Importer](https://apps.apple.com/app/health-csv-importer/id1275959806) app for iOS, which will import CSV data into Apple Health, allowing someone to export Google Fit data into Apple Health.
+This script combines Google Fit data from the "Daily activity metrics" folder of a [Google Takeout](https://takeout.google.com/settings/takeout) export into a single CSV for further analysis or other uses. The main intent was using the [Health CSV Importer](https://apps.apple.com/app/health-csv-importer/id1275959806) app for iOS, which will import CSV data into Apple Health, allowing someone to export Google Fit data into Apple Health.
 
 # Acknowledgements
 Thanks to [Ben](https://apple.stackexchange.com/users/297377/ben) on Stack Exchange for the initial script.
